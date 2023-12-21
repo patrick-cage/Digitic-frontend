@@ -2,17 +2,17 @@ import React from 'react'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
 import Container from '../components/Container'
-const wishlist = () => {
+const Wishlist = () => {
   return (
     <>
          <Meta title={"Wishlist"}/>
          <BreadCrumb title="Wishlist" />
          <Container class1="wishlist-wrapper home-wrapper-2 py-5">
           <div className="container-xxl">
-            
+          <div className="row">
               <div className="col-3">
                 <div className="wishlist-card position-relative">
-                <img src="images/cross.svg" alt="cross" className="position-absolute cross img-fluid" />
+                 <img src="images/cross.svg" alt="cross" className="position-absolute cross img-fluid" />
                   <div className="wishlist-card-image">
                      <img src="images/watch.jpg" className="img-fluid w-100" alt="watch" />
                   </div>
@@ -50,10 +50,11 @@ const wishlist = () => {
                 </div>
               </div>
             </div>
+            </div>
          </Container>
 
    </>
   )
 }
 
-export default wishlist
+export default Wishlist
