@@ -1,1 +1,2 @@
+vid 9:53:27 check browser console errors
 images https://prestashop.webdigify.com/PRS02/PRS037_quickstore/fr/
