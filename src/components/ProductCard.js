@@ -48,7 +48,7 @@ const ProductCard = (props) => {
                 activeColor="#ffd700"
                 />
                 <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipsicing elit.
                     Delectus cupiditate impedit minima molestias quasi quibusdam 
                     necessitatibus corporis, dolorum inventore ullam reprehenderit
                     nam deserunt fugiat quaerat...
